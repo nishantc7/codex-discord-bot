@@ -12,7 +12,6 @@ players={}
 #Add token.txt to the working directory with your Bot Token
 #Add youtube_api.txt with your API key
 
-
 f = open('token.txt', 'r')
 TOKEN = f.read().replace('\n', '')
 logger = logging.getLogger('discord')
@@ -49,8 +48,18 @@ async def help(ctx):
 	colour=discord.Colour.blue()
 	)
 	embed.set_author(name='help')
-	embed.add_field(name=".ping ",value="Returns pong wont tell you how clean works",inline=False)
-	embed.add_field(name=".play",value="Play with !play songname ",inline=False)
+	embed.add_field(name="!ping ",value="Returns pong",inline=False)
+	embed.add_field(name="!clean ",value="Clean messages Usage:!clean no._of_messages,default-100",inline=False)
+	embed.add_field(name="!play",value="Play with !play songname ",inline=False)
+	embed.add_field(name="!pause",value="pauses the music",inline=False)
+	embed.add_field(name="!resume",value="resumes the music",inline=False)
+	embed.add_field(name="!stop",value="stops the music",inline=False)
+	embed.add_field(name="!next",value="Plays next song in queue.",inline=False)
+	embed.add_field(name="!queue",value="Queues a song. Use !queue Song_name",inline=False)
+	embed.add_field(name="!kick",value="Kicks a member. Use !kick member_name",inline=False)
+	embed.add_field(name="!ban",value="Bans a member. Use !ban member_name",inline=False)
+	embed.add_field(name="!unban",value="Unbans a member. Use !unban member_name(with discriminator) Eg:Nishant#4324",inline=False)
+
 	await ctx.channel.send(author,embed=embed)
 @client.event
 async def on_reaction_add(reaction,user):
