@@ -1,14 +1,12 @@
-# codex-discord-bot
+# codex-discord-bot  &nbsp;&nbsp;&nbsp;[![Gitter](https://badges.gitter.im/codex-discord-bot/community.svg)](https://gitter.im/codex-discord-bot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 CODEX bot for the CODEX Discord channel
 
 # MAINTAINERS
 - [Debashish Mishra](https://github.com/Zanark)
 
-# CONTRIBUTORS
+## CONTRIBUTORS
 - [Rohan Verma](https://github.com/martyminiac)
 - [Nishant Choudhary](https://github.com/nishantc7)
-
-[![Gitter](https://badges.gitter.im/codex-discord-bot/community.svg)](https://gitter.im/codex-discord-bot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Get a bot token from Discord
 https://www.writebots.com/discord-bot-token/
