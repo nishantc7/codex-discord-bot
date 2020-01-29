@@ -4,7 +4,7 @@ CODEX bot for the CODEX Discord channel
 # MAINTAINERS
 - [Debashish Mishra](https://github.com/Zanark)
 
-## CONTRIBUTORS
+# CONTRIBUTORS
 - [Rohan Verma](https://github.com/martyminiac)
 - [Nishant Choudhary](https://github.com/nishantc7)
 
@@ -17,7 +17,7 @@ https://www.writebots.com/discord-bot-token/
 https://developers.google.com/youtube/v3/getting-started
 
 To create your project and credentials 
-https://console.cloud.google.com
+- https://console.cloud.google.com
 
 ### Commands
 
