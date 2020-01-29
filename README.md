@@ -1,5 +1,6 @@
 # codex-discord-bot
 CODEX bot for the CODEX Discord channel
+[![Gitter](https://badges.gitter.im/codex-discord-bot/community.svg)](https://gitter.im/codex-discord-bot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # MAINTAINERS
 - [Debashish Mishra](https://github.com/Zanark)
