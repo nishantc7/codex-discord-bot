@@ -1,18 +1,14 @@
 # codex-discord-bot
 CODEX bot for the CODEX Discord channel
-[![Gitter](https://badges.gitter.im/codex-discord-bot/community.svg)](https://gitter.im/codex-discord-bot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # MAINTAINERS
 - [Debashish Mishra](https://github.com/Zanark)
 
-# Requirements
-- install the required libraries using requirements.txt
-- add a token.txt file with your bot token to the working directory
-- add a youtube_api.txt with an API key for youtube
-
 ## CONTRIBUTORS
 - [Rohan Verma](https://github.com/martyminiac)
 - [Nishant Choudhary](https://github.com/nishantc7)
+
+[![Gitter](https://badges.gitter.im/codex-discord-bot/community.svg)](https://gitter.im/codex-discord-bot/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Get a bot token from Discord
 https://www.writebots.com/discord-bot-token/
@@ -25,7 +21,7 @@ https://console.cloud.google.com
 ### Commands
 
 There are many commands that can be used with the bot.
-- !ping : Returns pong
+- !ping : Returns "Pong!" (just to test if the bot is working)
 -	!clean : Clean messages use !clean (no._of_messages)
 - !play : Play with !play songname
 - !pause : pauses the music
